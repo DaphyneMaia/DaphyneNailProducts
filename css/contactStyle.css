@@ -1,0 +1,227 @@
+body{background: #E5E5E5;}
+#container{
+
+display: flex;
+flex-flow: row  wrap;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+border: 3px solid #AD6490;
+}
+#img1 {
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+  opacity: 30%;
+}
+
+#header{
+width: 100%;
+height: 248px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+background: linear-gradient(180deg, rgba(173, 100, 144, 0.50) 0%, rgba(173, 100, 144, 0) 100%);
+}
+#q{
+  width: 131.43px;
+  height: 40.38px;
+  left: 45px;
+  top: 23.08px;
+
+  font-family: 'Petit formal script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+
+  color: #5E535A;
+}
+#imgRose{
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+
+  background: url(rose-with-leaves-and-long-leg-flower-logo-vector-23711564.jpg);
+}
+
+#genInfo {
+
+width: 680px;
+height: 28px;
+margin-left: 649px;
+margin-top: -30px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #5E535A;
+}
+#genInfo p {
+  margin-left: 10px;
+}
+
+.glyphicon{
+
+  color: #5E535A;
+  margin-left: 40px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+#button{
+  		color: #5E535A;
+      width: 400px;
+      height: 50px;
+      left: 10px;
+      top: 716px;
+
+}
+#button:active{
+  vertical-align: center;
+  padding-top: 8px;
+}
+.item a {
+  width: 500px;
+  text-decoration: none;
+
+}
+
+#UserLo{
+
+  width: 30px;
+  height: 30px;
+  top: 15px;
+
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+}
+#nav{
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 28px;
+  line-height: 130px;
+  margin-left: 180px;
+
+  display: flex;
+
+  color: #5E535A;
+}
+#content{
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 28px;
+  line-height: 130px;
+  margin-left: 80px;
+
+  display: flex;
+
+  color: #5E535A;
+}
+#block{
+  width: 1440px;
+height: 124px;
+display: flex;
+
+
+background: rgba(173, 100, 144, 0.76);
+}
+
+#name{
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 28px;
+  align-items: center;
+  margin-left: 100px;
+
+  color: #5E535A;
+}
+
+#email{
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 28px;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 160px;
+
+  color: #5E535A;
+}
+#message{
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 28px;
+  align-items: center;
+  margin-left: 5px;
+
+  color: #5E535A;
+}
+label{
+  width: auto;
+  margin-left: 250px;
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 28px;
+}
+input{
+  		color: #5E535A;
+      background: rgba(173, 100, 144, 0.24);
+      border: 1px solid #AD6490;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+      height: 55px;
+      align-items: flex-end;
+      font-size: 24px;
+}
+
+
+input[type="submit" i] {
+      margin-top: 20px;
+      margin-left: 524px;
+      font-family: 'Petit Formal Script';
+      font-style: normal;
+      font-size: 20px;
+}
+p{
+  margin-left: 10px;
+}
+form{
+
+}
+#cart{
+  margin-top: 10px;
+  margin-left: 20PX;
+}
+#cart:hover{
+  transform: scale(1.50);
+}

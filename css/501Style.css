@@ -1,0 +1,128 @@
+body{background: #E5E5E5;}
+#container{
+
+display: flex;
+flex-flow: row  wrap;
+align-items: flex-start;
+padding: 0px;
+width: 1440px;
+height: 1024px;
+background: #FFFFFF;
+border: 3px solid #AD6490;
+text-align: center;
+}
+#img1 {
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+  opacity: 30%;
+}
+
+#header{
+width: 100%;
+height: 248px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+background: linear-gradient(180deg, rgba(173, 100, 144, 0.50) 0%, rgba(173, 100, 144, 0) 100%);
+}
+#q{
+  width: 131.43px;
+  height: 40.38px;
+  left: 45px;
+  top: 23.08px;
+
+  font-family: 'Petit formal script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+
+  color: #5E535A;
+}
+#imgRose{
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+
+  background: url(rose-with-leaves-and-long-leg-flower-logo-vector-23711564.jpg);
+}
+
+#genInfo {
+
+width: 680px;
+height: 28px;
+margin-left: 649px;
+margin-top: -30px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #5E535A;
+}
+#genInfo p {
+  margin-left: 10px;
+}
+
+.glyphicon{
+
+  color: #5E535A;
+  margin-left: 40px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+
+#UserLo{
+
+  width: 30px;
+  height: 30px;
+  top: 15px;
+
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+}
+.construction{
+  font-size: 70px;
+  font-family: 'Petit Formal Script';
+  color: #AD6490;
+  text-align: center;
+}
+.construction{
+  margin-left: 200px;
+}
+.button{
+  font-family: 'Petit Formal Script';
+  font-size: 40px;
+  color: #5E535A;
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+}
+.button:active{
+  text-decoration: underline;
+}

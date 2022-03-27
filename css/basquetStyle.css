@@ -1,0 +1,216 @@
+body{background: #E5E5E5;}
+#container{
+
+display: flex;
+flex-flow: column nowrap;
+padding: 0px;
+overflow:scroll;
+width: 1440px;
+background: #FFFFFF;
+border: 3px solid #AD6490;
+}
+#img1{
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+  opacity: 30%;
+
+  background-color: url(rose-with-leaves-and-long-leg-flower-logo-vector-23711564.jpg);
+}
+
+#header{
+width: 100%;
+height: 248px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+background: linear-gradient(180deg, rgba(173, 100, 144, 0.50) 0%, rgba(173, 100, 144, 0) 100%);
+}
+#q{
+  width: 131.43px;
+  height: 40.38px;
+  left: 45px;
+  top: 23.08px;
+
+  font-family: 'Petit formal script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+
+  color: #5E535A;
+}
+#imgRose{
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+
+  background: url(rose-with-leaves-and-long-leg-flower-logo-vector-23711564.jpg);
+}
+
+#genInfo {
+
+width: 680px;
+height: 28px;
+margin-left: 649px;
+margin-top: -30px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #5E535A;
+}
+#genInfo p {
+  margin-left: 10px;
+}
+.glyphicon{
+
+  color: #5E535A;
+  margin-left: 40px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+
+#UserLo{
+
+  width: 30px;
+  height: 30px;
+  top: 15px;
+
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+}
+.shop{
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.shop > h1{
+  padding: 20px 0;
+  margin-left: 20px;
+}
+.cart{
+  display: flex;
+  flex-flow:column;
+}
+.shop{
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+.products{
+  display: flex;
+  overflow: hidden;
+  height: 210px;
+  border: 2px solid #AD6490;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.products:hover{
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.04);
+}
+ .products > img{
+  width: 100px;
+  height: 210px;
+  object-fit: cover;
+}
+.products > img:hover{
+  transform: scale(1.04);
+}
+.product-info{
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  font-family: 'Petit Formal Script';
+  font-size: 18px;
+  color: #5E535A;
+}
+.product-name, .product-price{
+  margin-bottom: 20px;
+}
+.product-remove{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: #AD6490;
+  color:  black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.product-remove:hover{
+  background-color: white;
+  font-weight: 600;
+  border: 1px solid #AD6490;
+}
+.product-quantity > input{
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+}
+.fa{
+  margin-right: 5px;
+}
+.cart-total{
+  flex: 0.15;
+  margin-left: 20px;
+  padding: 20px;
+  height: 240px;
+  border: 2px solid #AD6490;
+}
+.cart-total p{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.cart-total a{
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #AD6490;
+  color: white;
+  text-decoration: none;
+}
+.cart-total a:hover{
+  background-color: rgba(173, 100, 144, 0.24);
+  color: #5E535A;
+}
+#cart{
+  margin-top: 10px;
+  margin-left: 20PX;
+}
+#cart:hover{
+  transform: scale(1.50);
+}

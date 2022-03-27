@@ -1,0 +1,636 @@
+h1{background: #E5E5E5;}
+#container{
+
+    align-items: flex-start;
+    padding: 0px;
+    overflow: scroll;
+    position: relative;
+    width: 1440px;
+    flex-flow: row nowrap;
+    background: #FFFFFF;
+    border: 3px solid #AD6490;
+    height: 1024px;
+    }
+
+
+#header{
+  position: absolute;
+  width: 100%;
+  height: 248px;;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  background: linear-gradient(180deg, rgba(173, 100, 144, 0.53) 0%, rgba(173, 100, 144, 0) 76.4%);
+}
+
+#logo{
+  position: absolute;
+  width: 306px;
+  height: 198px;
+  left: 0px;
+  top: 0px;
+}
+
+#img1{
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+
+  background: url(rose-with-leaves-and-long-leg-flower-logo-vector-23711564.jpg);
+}
+
+#nameLogo{
+position: absolute;
+width: 131.43px;
+height: 40.38px;
+left: 45px;
+top: 23.08px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-top: 10px;
+
+color: #5E535A;
+}
+
+#WebFeatures {
+
+position: absolute;
+width: 550px;
+height: 58px;
+left: 649px;
+top: 25px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #5E535A;
+}
+#WebFeatures > p{
+  margin-left: 10px;
+}
+
+.glyphicon{
+
+  color: #5E535A;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+ul{
+  	list-style-type: none;
+  }
+#button{
+  		color: #5E535A;
+      width: 400px;
+      height: 50px;
+      left: 10px;
+      top: 716px;
+
+}
+#button:active{
+  vertical-align: center;
+  padding-top: 8px;
+}
+.one a {
+
+  text-decoration: none;
+}
+
+#User{
+
+  position: absolute;
+  width: 77px;
+  height: 30px;
+  left: 550px;
+  top: 15px;
+
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+}
+#Used{
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  margin-left: 600px;
+  color: #5E535A;
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+
+#GP{
+position: absolute;
+width: 120px;
+height: 289px;
+left: 120px;
+top: 358px;
+overflow: hidden;
+}
+#GP:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+#details{
+  position: absolute;
+  width: 180px;
+  height: 86px;
+  left: 101px;
+  top: 657px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #5E535A;
+}
+#rectAdd{
+position: absolute;
+width: 294px;
+height: 50px;
+left: 35px;
+top: 800px;
+background: rgba(173, 100, 144, 0.24);
+border: 1px solid #AD6490;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+
+#addToCart{
+
+  text-align: center;
+  height: 20px;
+  left: 140px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+
+}
+
+#GP1{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 570px;
+  top: 348px;
+}
+#GP1:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details1{
+  position: absolute;
+  width: 199px;
+  height: 86px;
+  left: 640px;
+  top: 657px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+#rectAdd1{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 570px;
+  top: 800px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+
+#addToCart1{
+
+  text-align: center;
+  height: 35px;
+  left: 540px;
+  top: 782px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0px;
+
+}
+#GP2{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 1100px;
+  top: 358px;
+
+}
+#GP2:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details2{
+  position: absolute;
+  width: 199px;
+  height: 86px;
+  left: 1160px;
+  top: 657px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+
+#rectAdd2{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 1100px;
+  top: 800px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+
+#addToCart2{
+  text-align: center;
+  height: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+}
+
+#nav{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  width: 500px;
+  margin-left: 420px;
+  color: #5E535A;
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-size: 30px;
+}
+#nav > h2{
+  margin-top: 700px;
+}
+
+#GelP{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 30px;
+  top: 1100px;
+
+}
+#GelP:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details3{
+  position: absolute;
+  width: 199px;
+  height: 300px;
+  left: 97px;
+  top: 1400px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+#rectAdd3{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 41px;
+  top: 1530px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+#addToCart3{
+  text-align: center;
+  height: 28px;
+  top: 1334px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+}
+#GelP1{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 570px;
+  top: 1100px;
+}
+#GelP1:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details4{
+  position: absolute;
+  width: 199px;
+  height: 300px;
+  left: 650px;
+  top: 1400px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+
+#rectAdd4{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 580px;
+  top: 1530px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+#addToCart4{
+  text-align: center;
+  height: 28px;
+  top:0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+}
+#GelP2{
+  position: absolute;
+  width: 270px;
+  height: 290px;
+  left: 1150px;
+  top: 1120px;
+}
+#GelP2:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details5{
+  position: absolute;
+  width: 199px;
+  height: 86px;
+  left: 1150px;
+  top: 1400px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+  }
+#rectAdd5{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 1100px;
+  top: 1530px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+#addToCart5{
+  text-align: center;
+  height: 35px;
+  top: 1770px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+}
+#GelP3{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 30px;
+  top: 1700px;
+}
+#GelP3:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details7{
+  position: absolute;
+  width: 199px;
+  height: 300px;
+  left: 97px;
+  top: 2000px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+#rectAdd7{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 41px;
+  top: 2130px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+#addToCart7{
+  text-align: center;
+  height: 28px;
+  top: 1334px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+}
+#GelP4{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 570px;
+  top: 1700px;
+}
+#GelP4:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details8{
+  position: absolute;
+  width: 199px;
+  height: 300px;
+  left: 650px;
+  top: 2000px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+#rectAdd8{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 570px;
+  top: 2130px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+#addToCart8{
+  text-align: center;
+  height: 28px;
+  top: 1334px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  color: #5E535A;
+}
+#GelP5{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 1100px;
+  top: 1700px;
+}
+#GelP5:hover{
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+#details9{
+  position: absolute;
+  width: 199px;
+  height: 300px;
+  left: 1150px;
+  top: 2000px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #5E535A;
+}
+#rectAdd9{
+  position: absolute;
+  width: 294px;
+  height: 50px;
+  left: 1100px;
+  top: 2130px;
+
+  background: rgba(173, 100, 144, 0.24);
+  border: 1px solid #AD6490;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(173, 100, 144, 0.24);
+}
+#addToCart9{
+  text-align: center;
+  height: 28px;
+  top: 1334px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0px;
+
+  color: #5E535A;
+}
+p{
+  margin-left: 10px;
+}
+#cart{
+  margin-top: 10px;
+  margin-left: 60PX;
+}
+#cart:hover{
+  transform: scale(1.50);
+}

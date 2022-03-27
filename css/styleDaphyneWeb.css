@@ -1,0 +1,282 @@
+h1{background: #E5E5E5;}
+#container{ position: relative;
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+
+background: #FFFFFF;
+border: 3px solid #AD6490;
+}
+
+#header{
+
+position: absolute;
+width: 100%;
+height: 305px;
+left: 0px;
+top: -1px;
+
+background: linear-gradient(180deg, rgba(173, 100, 144, 0.53) 0%, rgba(173, 100, 144, 0) 76.4%);
+}
+
+#tbody{
+  padding: 10px;
+}
+#table{
+  table-layout: fixed;
+}
+#logo{
+  position: absolute;
+  width: 306px;
+  height: 198px;
+  left: 0px;
+  top: 0px;
+}
+
+#img1{
+  width: 70px;
+  height: 80px;
+  left: 8px;
+  top: 7px;
+  margin-top: 10px;
+
+  background: url(rose-with-leaves-and-long-leg-flower-logo-vector-23711564.jpg);
+}
+
+#nameLogo{
+
+position: absolute;
+width: 131.43px;
+height: 40.38px;
+left: 45px;
+top: 23.08px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-top: 10px;
+
+color: #5E535A;
+
+
+}
+
+#WebFeatures {
+
+position: absolute;
+width: 550px;
+height: 58px;
+left: 650px;
+top: 25px;
+
+font-family: 'Petit formal script';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #5E535A;
+}
+#WebFeatures > p{
+  margin-left: 10px;
+}
+.glyphicon{
+
+  color: #5E535A;
+
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+#User{
+
+  position: absolute;
+  width: 77px;
+  height: 30px;
+  left: 544px;
+  top: 15px;
+
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+}
+#img3{
+
+position: absolute;
+width: 550px;
+height: 369px;
+left: 59px;
+top: 260px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 50px;
+}
+#description{
+
+position: absolute;
+width: 550px;
+height: 369px;
+left: 695px;
+top: 300px;
+
+font-family: 'Petit Formal Script';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #5E535A;
+}
+#container1{
+position: absolute;
+width: 100%;
+height: 124px;
+left: 0px;
+top: 629px;
+
+background: rgba(173, 100, 144, 0.76);
+color: #AD6490;
+opacity: 76%;
+}
+#descont{
+  position: absolute;
+  width: 571px;
+  height: 30px;
+  left: 434px;
+  top: 50px;
+
+  font-family: 'Petit Formal Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+
+}
+#img4{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 234px;
+  top: 769px;
+  border-radius: 50px;
+}
+#img5{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 620px;
+  top: 769px;
+  border-radius: 50px;
+  background-color: #AD6490;
+
+}
+#img6{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 1006px;
+  top: 769px;
+  border-radius: 50px;
+  background-color: #AD6490;
+}
+#gp{
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  left: 259px;
+  top: 935px;
+
+  font-family: Petit Formal Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#ac{
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  left: 647px;
+  top: 935px;
+
+  font-family: Petit Formal Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#fn{
+  position: absolute;
+  width: 142px;
+  height: 30px;
+  left: 1034px;
+  top: 935px;
+
+  font-family: Petit Formal Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #5E535A;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p{
+  margin-left: 10px;
+}
+#cart{
+  margin-top: 10px;
+  margin-left: 60PX;
+}
+#cart:hover{
+  transform: scale(1.50);
+}
